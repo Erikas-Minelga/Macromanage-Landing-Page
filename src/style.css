@@ -1,0 +1,74 @@
+@font-face {
+  font-family: IBM-Plex-Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: IBM-Plex-Sans;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.large-text{
+  font-size: 24px;
+}
+
+.bold-txt{
+  font-weight: bold;
+}
+
+.white-txt{
+  color: white;
+}
+
+.blue-btn{
+  background-color: rgba(81, 0, 255, 0.76);
+  color: white;
+}
+
+.white-btn{
+  border: 1px solid black;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.round-image{
+  border-radius: 100%;
+  background-size: contain;
+}
+
+section{
+  padding: 35px;
+}
+
+h1{
+  margin: 3vh 0 3vh 0;
+}
+
+@keyframes fade-in {
+  0% {opacity: 0};
+  100% {opacity: 1};
+}
+
+.fade{
+  animation: fade-in 0.1s linear;
+}
